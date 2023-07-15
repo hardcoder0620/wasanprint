@@ -1,0 +1,116 @@
+@import "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: DM Sans, sans-serif;
+}
+
+.incs {
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.inner {
+  background: cyan;
+}
+
+.imgBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.doName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.doDocketNo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soSec {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.title, .valBox {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.borBoxContainer {
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.borBoxContainer.bel {
+  margin-top: 0px;
+  border-top: 0px solid black;
+}
+.borBoxContainer .rowCont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.borBoxContainer .rowCont .leftSec {
+  border-right: 1px solid black;
+  width: 50%;
+}
+.borBoxContainer .rowCont .rightSec {
+  width: 50%;
+}
+.borBoxContainer .element {
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+.borBoxContainer .element .entry {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.borBoxContainer .element .entry .entryTitile {
+  font-size: 12px;
+  font-weight: 500;
+  width: 50%;
+  text-transform: uppercase;
+}
+.borBoxContainer .element .entry .entryVal {
+  font-size: 12px;
+  font-weight: 400;
+  width: 50%;
+}
+.borBoxContainer .element .elemheading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.borBoxContainer .element.add .entry {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.borBoxContainer .element.add .entry .entryTitile {
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  text-transform: uppercase;
+}
+.borBoxContainer .element.add .entry .entryVal {
+  font-size: 12px;
+  font-weight: 400;
+  flex: 1;
+}
+.borBoxContainer .element.brnone {
+  border-bottom: none;
+}/*# sourceMappingURL=App.css.map */
